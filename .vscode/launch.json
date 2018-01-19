@@ -15,7 +15,8 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": true,
-            "MIMode": "lldb"
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
         },
         { 
             "name": "(gdb) Attach",
@@ -23,7 +24,8 @@
             "request": "attach",
             "program": "${workspaceRoot}/hello",
             "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }
